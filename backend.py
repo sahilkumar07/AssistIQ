@@ -10,11 +10,9 @@ import sqlite3
 from langgraph.prebuilt import ToolNode, tools_condition
 from langchain_community.tools import DuckDuckGoSearchRun
 from langchain_core.tools import tool
-from dotenv import load_dotenv
 import os
 
 # ------------------- Setup -------------------
-load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 llm = ChatGroq(
