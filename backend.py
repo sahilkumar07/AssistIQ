@@ -14,7 +14,7 @@ import os
 
 # ------------------- Setup -------------------
 import streamlit as st
-
+st.write(st.secrets)  
 GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
 llm = ChatGroq(
