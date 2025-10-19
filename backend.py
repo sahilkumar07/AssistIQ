@@ -15,7 +15,7 @@ import os
 
 # ------------------- Setup -------------------
 load_dotenv()
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "your_groq_key_here")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 llm = ChatGroq(
     groq_api_key=GROQ_API_KEY,
