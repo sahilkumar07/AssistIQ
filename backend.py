@@ -13,7 +13,9 @@ from langchain_core.tools import tool
 import os
 
 # ------------------- Setup -------------------
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
+import streamlit as st
+
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
 llm = ChatGroq(
     groq_api_key=GROQ_API_KEY,
