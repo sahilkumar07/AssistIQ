@@ -14,10 +14,6 @@ import os
 
 # ------------------- Setup -------------------
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
-LANGSMITH_API_KEY = os.environ.get("LANGSMITH_API_KEY")
-LANGSMITH_ENDPOINT = os.environ.get("LANGSMITH_ENDPOINT")
-LANGSMITH_PROJECT = os.environ.get("LANGSMITH_PROJECT")
-LANGSMITH_TRACING = os.environ.get("LANGSMITH_TRACING") == "true"
 
 llm = ChatGroq(
     groq_api_key=GROQ_API_KEY,
