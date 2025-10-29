@@ -2,6 +2,7 @@
 
 An **AI-powered conversational assistant** built with **Streamlit**, **LangGraph**, and **LangChain**, featuring multi-threaded chat history, persistent storage via SQLite, and live streaming responses from **Groq Llama 3.1**.
 
+  🚀 **Live Demo:** [Click here to open the app](https://sahilkumar07-assistiq-frontend-ztrnui.streamlit.app/)
 ---
 
 ## 🚀 Features and Functionalities
