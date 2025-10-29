@@ -5,7 +5,7 @@ An **AI-powered conversational assistant** built with **Streamlit**, **LangGraph
   🚀 **Live Demo:** [Click here to open the app](https://sahilkumar07-assistiq-frontend-ztrnui.streamlit.app/)
 ---
 
-## 🚀 Features and Functionalities
+## 🧩 Features Features and Functionalities
 
 ### 💡 Core Features
 - **Multi-threaded Chat Management**
